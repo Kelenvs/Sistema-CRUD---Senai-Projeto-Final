@@ -1,0 +1,67 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+
+body {
+    background-color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    height: 100vh;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 60px;
+    width: 200vh;
+    height: 20vh;
+    text-align: center;
+    background-image: linear-gradient(45deg, #4ae590, #0a7ba8);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+input {
+    text-align: center;
+    color: rgb(209, 202, 202);
+    border: none;
+    outline: none;
+    background: transparent;
+    margin: 10px 0px;
+    padding: 5px 0px;
+    width: 100%;
+}
+
+::placeholder {
+    text-align: center;
+    align-items: center;
+}
+
+button {
+    background-image: linear-gradient(45deg, #3cb371, #2A7B9B);
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: bold;                              /*largura da fonte, bold: negrito, mais grossa*/
+    text-transform: uppercase;                      /*Mudança do texto, uppercase: caixa alta*/
+    border: none;                                   /*borda do botao, none: sem borda*/
+    margin-top: 25px;                              /*margem do topo para baixo*/
+}
+
+button:hover {
+    background-color: darkslategray;
+    cursor: pointer;
+    transition: 0.7s;
+    letter-spacing: 2px;
+}

@@ -12,7 +12,7 @@ $sql = "SELECT * FROM contatos WHERE id=$id"; // Selecionando a tabela pelo Ids 
 
 $caixa= mysqli_query($chave, $sql); // Chave e comando para banco
 
-
+h
 if($caixa -> num_rows > 0){
 
 
